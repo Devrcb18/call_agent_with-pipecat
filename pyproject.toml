@@ -1,0 +1,6 @@
+
+name = "pizza-hut-agent"
+version = "0.1.0"
+description = "Pipecat +langgraph voice agent for bookings services"
+readme = "README.md"
+requires-python = ">=3.11"

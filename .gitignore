@@ -1,0 +1,10 @@
+# ── Environment & secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+__pycache__/
+.venv/
+venv/
+env/
+ENV/
+.vscode/
+.README.md

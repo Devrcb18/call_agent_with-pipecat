@@ -1,0 +1,20 @@
+# ── Pipecat core + service extras ────────────────────────────────────────────
+# Voice pipeline, VAD, STT/TTS, WebRTC transport
+pipecat-ai[sarvam,silero,deepgram,webrtc,runner]==1.4.0
+
+# ── LLM / LangGraph ──────────────────────────────────────────────────────────
+langchain-core>=0.3.0,<0.4
+langchain-groq>=0.2.0,<0.3
+langgraph>=0.2.0,<0.4
+
+# ── Database ──────────────────────────────────────────────────────────────────
+supabase>=2.4.0,<3.0
+
+# ── HTTP (Redis/Upstash REST client) ─────────────────────────────────────────
+aiohttp>=3.9.0,<4.0
+
+# ── Config / env ─────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0,<2.0
+
+# ── Logging ───────────────────────────────────────────────────────────────────
+loguru>=0.7.0,<0.8
